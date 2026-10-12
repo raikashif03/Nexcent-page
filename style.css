@@ -1,0 +1,381 @@
+body {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #F5F7FA;
+}
+.header {
+  height: 84px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  width: 155px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color:#F5F7FA;
+}
+.items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 20px;
+}
+.items p{
+  font-family: 'Inter, Sens Serif';
+  font-weight: 400px;
+  font-size: 18px;
+}
+.btns {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.login {
+  background-color: white;
+  color: #4caf4f;
+}
+.hero{
+  height:499px ;
+  width:100%;
+  background-color: #F5F7FA;
+  margin-top: -5px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjust the column widths as needed */
+  gap: 10px; /* Optional: adds space between columns */
+  padding: 10px;
+}
+.frame{
+     margin-top: 30%;
+     margin-left: 180px;
+     /* font-family: 'Inter, Sens Serif'; */
+}
+.illustration img{
+  margin-top: 5%;
+  margin-left: 120px;
+}
+.head2{
+  font-weight: bold;
+}
+.heading1{
+  color: #188a1c;
+  font-weight: bold;
+}
+.clients{
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  /* font-family: 'Inter, Sens Serif'; */
+  justify-content: center;
+  align-items: center;
+}
+.head20{
+font-weight: bold;
+}
+
+.heading2{
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+}
+.text10{
+  margin-left: 39%;
+}
+.logos{
+  margin-right:70px;
+  margin-left: 180px;
+  gap: 10%;
+  display: flex;
+}
+
+.community{
+  width: 100%;
+  height: 450px;
+  margin-top: 30px;
+  /* font-family: 'Inter, Sens Serif'; */
+}
+.heading3{
+  margin-left: 37%;
+}
+.head3{
+  margin-left:10%;
+  font-weight: bold;
+}
+.head4{
+  font-weight: bold;
+}
+.head5{
+  font-weight: bold;
+}
+.head6{
+  font-weight: bold;
+}
+.head14{
+  font-weight: bold;
+}
+.text4{
+  margin-left: 42%;
+  margin-top: 20px;
+}
+.grid-container2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+  gap: 10px; /* Adds space between the grid items */
+  padding: 10px;
+  margin-top: 30px;
+  margin-right: 180px;
+  margin-left: 180px;
+}
+
+.grid-item {
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  width: 230px;
+  height: 270px;
+}
+.head10{
+  font-weight: bold;
+  margin-top:-10px;
+}
+.head12{
+  font-weight: bold;
+  margin-top:-10px;
+}
+.achievements{
+  width: 100%;
+  height: 290px;
+  margin-top: 30px;
+  background-color: #F5F7FA;
+}
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjust the column widths as needed */
+  gap: 10px; /* Optional: adds space between columns */
+  padding: 10px;
+  margin-right: 180px;
+}
+.frame2{
+     margin-top: 8%;
+     margin-left: 180px;
+     font-family: 'Inter, Sens Serif';
+}
+.counts{
+  margin-top: 7%;
+  margin-left: 120px;
+}
+.head13{
+  font-weight: bold;
+}
+.row1{
+ display: flex;
+  padding: 7%;
+  margin-left: 69px;
+}
+.row2{
+ display: flex;
+ margin-left: 79px;
+ padding: 5%;
+}
+.unlock{
+  width: 100%;
+  height: 340px;
+  margin-top: 30px;
+  
+}
+.image10{
+  display: flex;
+  margin-left:12% ;
+  margin-top: 9px;
+}
+.heading8{
+    margin-top: 22px;
+    margin-right: 180px;
+    padding-left: 30px;
+}
+.heading9{
+  margin-top: 22px;
+  margin-right: 180px;
+  padding-left: 60px;
+}
+.calender{
+  width: 100%;
+  height: 370px;
+  margin-top: 30px;
+}
+.customers{
+  width: 100%;
+  height: 340px;
+  margin-top: 30px;
+  background-color:#F5F7FA;
+}
+.para{
+  margin-top: 20px;
+  margin-left: 29%;
+  margin-right:180px ;
+}
+.text{
+  color: #4caf4f;
+ font-size: 23px;
+ font-weight: bold;
+}
+.image11{
+  display: flex;
+  padding: 10px;
+  gap: 3.5%;
+}
+.text1{
+  color: #188a1c;
+  font-weight: bold;
+}
+.marketing{
+  width: 100%;
+  height: 510px;
+  margin-top: 100px;
+}
+.heading11{
+  margin-top: 20px;
+  margin-left: 42%;
+  margin-right:10% ;
+  align-items: center;
+  justify-content:center;
+  font-weight: bold;
+}
+.text14{
+  margin-left: 39%;
+  margin-right: 380px;
+}
+.grid-container5{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+  gap: 70px; /* Adds space between the grid items */
+  padding: 10px;
+  margin-top: 30px;
+  margin-right: 180px;
+  margin-left: 180px;
+}
+.grid-item1{
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 240px;
+  height: 150px;
+  margin-top: 130px;
+  background-color:  #F5F7FA;
+  gap: 50px;
+}
+.text3{
+  font-size: 18px;
+}
+.para2{
+  color: #188a1c;
+  margin-top: 10px;
+}
+
+.footer1{
+  width: 100%;
+  height: 660px;
+  margin-top: 120px;
+  margin-right: 180px;
+ 
+}
+.heading12{
+  margin-right: 30%;
+  margin-left: 40%;
+  margin-top: 35px;
+font-size: 55px;
+font-weight: bold;
+}
+.btn1{
+  margin-left: 46%;
+  margin-top: 35px;
+}
+.grid-container6 {
+  display:grid ;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  gap: 10px; /* Adds space between the grid items */
+  padding: 20px;
+  margin-top:30px;
+  height: 350px;
+  background-color:black;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.grid-item7{
+  color: black;
+  padding: 20px;
+  padding-left: 0px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  height: 300px;
+  margin-top: 18px;
+  gap: 50px;
+  padding-top: 20px;
+  color: white;
+}
+.grid-item8{
+  color: black;
+  padding: 20px;
+  padding-left: 0px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  gap: 50px;
+  color: white;
+}
+.text7{
+  margin-top:30px ;
+}
+.grid-item9{
+  color: black;
+  padding: 20px;
+  padding-left: 0px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 300px;
+  margin-top: 10px;
+  gap: 50px;
+  margin-left: -100px;
+  color: white;
+}
+.grid-item10{
+  color: black;
+  padding: 20px;
+  padding-left: 0px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  gap: 50px;
+  margin-left: -110px;
+  color: white;
+}
+ .image18{
+  margin-top: 20px;
+  background-color: grey;
+  border-radius:10px;
+  padding: 5px;
+ }
+  
+  
+
+
